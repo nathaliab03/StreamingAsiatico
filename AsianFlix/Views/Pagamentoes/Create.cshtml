@@ -4,47 +4,47 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<div class="container cadastrar">
+    <h1>Cadastrar Pagamento</h1>
 
-<h4>Pagamento</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+    <div class="row">
+        <div class="col-md">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="ClienteId" class="control-label"></label>
+                <div class="form-group mb-3">
+                <label asp-for="ClienteId" class="control-label">Cliente</label>
                 <select asp-for="ClienteId" class ="form-control" asp-items="ViewBag.ClienteId"></select>
             </div>
-            <div class="form-group">
+                <div class="form-group mb-3">
                 <label asp-for="DataPagamento" class="control-label"></label>
                 <input asp-for="DataPagamento" class="form-control" />
                 <span asp-validation-for="DataPagamento" class="text-danger"></span>
             </div>
-            <div class="form-group">
+                <div class="form-group mb-3">
                 <label asp-for="ValorPagamento" class="control-label"></label>
                 <input asp-for="ValorPagamento" class="form-control" />
                 <span asp-validation-for="ValorPagamento" class="text-danger"></span>
             </div>
-            <div class="form-group">
+                <div class="form-group mb-3">
                 <label asp-for="FormaPagamento" class="control-label"></label>
                 <input asp-for="FormaPagamento" class="form-control" />
                 <span asp-validation-for="FormaPagamento" class="text-danger"></span>
             </div>
-            <div class="form-group">
+                <div class="form-group mb-3">
                 <label asp-for="StatusPagamento" class="control-label"></label>
                 <input asp-for="StatusPagamento" class="form-control" />
                 <span asp-validation-for="StatusPagamento" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <div class="form-group mb-3">
+                    <input type="submit" value="Cadastrar Pagamento" class="btn btn-asian w-100" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" class="text-white">Voltar</a>
+    </div>
 </div>
 
 @section Scripts {
