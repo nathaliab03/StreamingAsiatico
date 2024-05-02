@@ -1,0 +1,110 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-color: #141313;
+    color: white;
+}
+
+.bg-asianFlix {
+    background-color: #141313;
+    border-bottom: 1px solid #05445e;
+}
+
+.text-nav {
+    color: #189AB4 !important;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    color: #75D2E6 !important;
+}
+
+.btn-asian {
+    background-color: #189AB4;
+    color: #E9FDF3;
+    border-radius: 15px;
+
+}
+
+.btn-planoMensal {
+    background-color: #868B8E;
+    color: #E9FDF3;
+    text-transform: uppercase;
+}
+
+.btn-planoAnual {
+    background-color: #189AB4;
+    color: #E9FDF3;
+    text-transform: uppercase;
+}
+
+.conteudo img {
+    height: 400px;
+}
+
+.banner {
+    background-image: url('https://i.ibb.co/FBmhHdc/crashlandingonyou.png');
+    background-size: cover;
+    height: 95vh;
+}
+
+.details {
+     height: 95vh;
+}
+
+.bannerDescription {
+    color: white;
+    opacity: 1;
+}
+
+
+.bi {
+    font-size: 25px;
+    
+}
+
+.btn-play {
+    background-color: #189AB4;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.cardPlanos > .card, .list-group-item {
+    background-color: #75D2E6;
+    border-bottom: 1px solid #189AB4
+}
+
+.cadastrar {
+    margin-top: 20vh;
+    
+}
+
+.form-control, .form-select {
+    color: #189AB4;
+    background-color: #171c1b;
+    border: 1px solid #05445e;
+}
+
+.form-control:focus, .form-control:active {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #05445e;
+    color: #189AB4;
+    background-color: #171c1b !important
+}
