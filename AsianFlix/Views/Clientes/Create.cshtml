@@ -32,8 +32,8 @@
 
                 <div class="form-group mb-md-3">
                     <label asp-for="FormaPagamento" asp-for="FormaPagamento" class="control-label"></label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option value="PIX" name="PIX" selected>PIX</option>
+                    <select class="form-select" asp-for="FormaPagamento" aria-label="Default select example">
+                        <option value="PIX" selected>PIX</option>
                         <option value="Credito">Crédito</option>
                         <option value="Debito">Débito</option>
                     </select>
